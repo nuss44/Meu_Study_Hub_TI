@@ -1,0 +1,9 @@
+# Arquivos de Variáveis de Ambiente
+.env
+.env.local
+*.env
+
+# Logs e Arquivos Temporários
+*.log
+node_modules/
+.DS_Store
