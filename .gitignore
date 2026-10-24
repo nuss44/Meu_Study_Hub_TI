@@ -1,0 +1,11 @@
+# Variáveis de ambiente e chaves
+.env
+.env.local
+*.env
+
+# Arquivos de sistema e dependências
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
