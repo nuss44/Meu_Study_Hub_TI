@@ -1,11 +1,32 @@
-# Variáveis de ambiente e chaves
-.env
-.env.local
-*.env
+# PortfolioHUB - Proteção de arquivos sensíveis
 
-# Arquivos de sistema e dependências
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Dependências
 node_modules/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Arquivos do sistema
 .DS_Store
 Thumbs.db
-*.log
 
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Configurações locais
+.vscode/
+.idea/
