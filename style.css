@@ -142,6 +142,33 @@ footer {
     padding: 30px;
 }
 
+/* Estilos para a Seção Google Workspace */
+.workspace-section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #4285f4;
+}
+
+.workspace-links {
+  margin-top: 15px;
+}
+
+.btn-workspace {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-workspace:hover {
+  background-color: #357ae8;
+}
 
 /* CELULAR */
 
