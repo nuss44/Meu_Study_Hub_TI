@@ -1,0 +1,34 @@
+# PortfolioHUB - Arquivos ignorados pelo Git
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos de logs
+*.log
+logs/
+
+# Dependências
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Configurações locais
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais Python
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configurações locais de editores
+.vscode/
+.idea/
